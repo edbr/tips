@@ -3546,10 +3546,17 @@
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 375px) {
 
 			.wrapper .inner {
 				padding: 2em 1.5em 0.1em 1.5em ;
+			}
+
+			.wrapper.spotlight .image {
+				margin: 0 0 1em 0 !important;
+				max-width: 85%;
+				width: 12em;
+				display: none;
 			}
 
 		}
